@@ -4,5 +4,5 @@ availability_zone       = "ap-southeast-2a" # availability zone (change it accor
 env_prefix              = "dev" # prefix for tags
 instance_type           = "t2.small" # EC2 instance type
 key_name                = "Kubernetes" # ec2 key pair name that you created earlier before start of the project.
-ssh_access_cidrs        = ["203.32.11.68"] # List of CIDR blocks for SSH access to Jenkins server
-jenkins_ui_access_cidrs = ["203.32.11.68"] # List of CIDR blocks for accessing Jenkins web UI
+ssh_access_cidrs        = ["203.32.11.68/32"] # List of CIDR blocks for SSH access to Jenkins server
+jenkins_ui_access_cidrs = ["203.32.11.68/32"] # List of CIDR blocks for accessing Jenkins web UI
